@@ -1,4 +1,5 @@
 'use strict';
+// FAISAL HOMES API server entry point: creates storage folders, runs migrations, starts the backup scheduler and HTTP server.
 const fs = require('fs');
 const config = require('./config');
 const { migrate } = require('./db/migrate');
